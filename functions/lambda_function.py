@@ -4,9 +4,7 @@ import boto3
 def lambda_handler(event, context):
     #try:
     #    rds_client = boto3.client('rds')
-    #    user = "dbiamuser"
-    #    endpoint = "dev-aurora-api-cluster.cluster-chqgfrcmk2pe.us-east-1.rds.amazonaws.com"
-    ##    db_name = "infra_aws_api"
+    #    user = "dbiamuser"  
      #   region= "us-east-1"
      #   token = rds_client.generate_db_auth_token(endpoint,3306,user,region)
      #   conn = pymysql.connect(host=endpoint, port=3306, user=user, password=token, db=db_name, auth_plugin_map={'mysql_cleartext_password':None}, cursorclass=pymysql.cursors.DictCursor)
